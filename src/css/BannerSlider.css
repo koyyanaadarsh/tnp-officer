@@ -1,0 +1,110 @@
+/* BannerSlider.css */
+
+/* Style for the container of the banner slider */
+.banner {
+  background: #1e222b;
+  position: relative;
+  width: 100%;
+  margin: 0; /* Add this line */
+  padding: 0; /* Add this line */
+  border: none; /* Add this line */
+}
+
+/* Style for the individual items (slides) */
+.item {
+  position: relative;
+  margin: 0; /* Add this line */
+  padding: 0; /* Add this line */
+  border: none; /* Add this line */
+}
+
+/* Style for the content within each item */
+.banner_containt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Adjust text color */
+  margin: 0; /* Add this line */
+  padding: 0; /* Add this line */
+  border: none; /* Add this line */
+}
+
+.banner_containt h1 {
+  font-size: 24px; /* Adjust heading font size */
+  margin-bottom: 10px; /* Adjust spacing between heading and paragraph */
+}
+
+.banner_containt p {
+  font-size: 16px; /* Adjust paragraph font size */
+  margin-bottom: 20px; /* Adjust spacing between paragraphs */
+}
+
+.banner_containt .common-btn {
+  font-size: 17px;
+  background: #ff6d00;
+  color: #fff;
+  padding: 16px 28px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1;
+  border: 0;
+  border-radius: 0px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.banner_containt .common-btn:hover {
+  background: #0ecf00;
+  color: #fff;
+  box-shadow: none;
+}
+
+/* Style for the images */
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block; /* Add this line to remove any gaps */
+  margin: 0; /* Add this line */
+  padding: 0; /* Add this line */
+  border: none; /* Add this line */
+}
+
+/* Slick slider arrows customization */
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  color: #fff; /* White color for arrows */
+  border: none;
+  outline: none;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+}
+
+.slick-prev {
+  left: 10px; /* Positioning left arrow */
+}
+
+.slick-next {
+  right: 10px; /* Positioning right arrow */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  line-height: 40px; /* Center the icon vertically */
+  opacity: 1;
+  color: #fff;
+}
