@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './css/TestimonialSlider.css';
+import './custom.css'
 
 const App = () => {
   const [clickCount, setClickCount] = useState(0);
