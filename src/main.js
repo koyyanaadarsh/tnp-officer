@@ -9,7 +9,6 @@ import bg1 from './images/bg-01.jpg'
 import './custom.css';
 import './services.js';
 import './about.js';
-import './appointment.js';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
